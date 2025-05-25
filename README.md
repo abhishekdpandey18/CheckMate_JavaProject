@@ -79,6 +79,7 @@ public class DatabaseConnection {
 
 ---
 
+
 ## ✅ 6. Create Model & DAO (3 Marks)
 To manage database interactions cleanly and efficiently, we implemented:
 
@@ -90,3 +91,22 @@ moveNumber – The sequential number of the move.
 whiteMove – Move made by the White player.
 
 blackMove – Move made by the Black player. 
+
+---
+
+## 🎨 7. Aesthetics and UI Design (4 Marks)
+We enhanced the user interface of the Java Chess game to improve usability and visual appeal by:
+
+Using custom fonts for a cleaner and more modern look.
+
+Optimizing layouts with appropriate spacing and component alignment.
+
+Adding colors to differentiate player moves and highlight game states (e.g., check, checkmate).
+
+Incorporating icons and images for chess pieces and game status indicators.
+
+Ensuring the UI adapts well to different window sizes for better responsiveness.
+
+These improvements help create a more engaging and intuitive gameplay experience.
+
+
