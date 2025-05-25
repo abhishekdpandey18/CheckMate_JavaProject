@@ -49,4 +49,54 @@ CREATE TABLE MoveHistory (...);
 
 ---
 
+# ♟️ Java Chess Game with GUI & MySQL Integration
+
+This is a complete Chess game implemented in Java using Swing for the GUI and JDBC for connecting to a MySQL database. The game follows standard chess rules including legal move validation, check, checkmate, castling, and en passant. Move history can be persisted using a MySQL database.
+
+---
+
+## 📁 Project Structure
+
+JavaChess-main/
+├── src/
+│ ├── com/chess/database/DatabaseConnection.java
+│ ├── com/chess/model/MoveRecord.java
+│ ├── com/chess/dao/MoveHistoryDAO.java
+│ └── com/chess/GUI/GameHistoryPanel.java
+├── Chess pieces/ # Image assets
+├── JChess.java # Main game entry point
+└── README.md # This file
+
+swift
+Copy
+Edit
+
+---
+
+## ✅ 5. JDBC Implementation (3 Marks)
+
+We've successfully implemented JDBC to enable interaction between our Java Chess game and a MySQL database.
+
+- A dedicated `DatabaseConnection.java` class was created to handle the database connection logic.
+- JDBC is used to connect the Java application to a MySQL database (`chessdb`).
+- This connection will support storing and retrieving move history or other game-related data in future extensions.
+
+### 📄 `DatabaseConnection.java` Highlights
+
+```java
+package com.chess.database;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DatabaseConnection {
+    private static final String URL = "jdbc:mysql://localhost:3306/chessdb";
+    private static final String USER = "root";
+    private static final String PASSWORD = "yourpassword";
+
+    public static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(URL, USER, PASSWORD);
+    }
+}
  
