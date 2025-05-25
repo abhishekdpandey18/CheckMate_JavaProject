@@ -19,12 +19,14 @@ To build a two-player GUI-based Chess game in Java, focusing on game rules, move
 ### ✅ Project Structure                  ✔1
 - The project Structure in already given in a text file `CheckMate ## Project Structure.txt`
 
-
 ---
+
 ## 🗃️ Database Schema Design                  ✔1
 
 The project uses a MySQL database to store chess game details and move history.
 
+---
+ 
 ### 📂 Tables                  ✔1
 
 - **Game**  
@@ -36,9 +38,13 @@ The project uses a MySQL database to store chess game details and move history.
 - SQL Schema File
 
 The database schema is defined in [`schema.sql`](schema.sql), which includes:
+ 
 
 ```sql
 CREATE TABLE Game (...);
 CREATE TABLE MoveHistory (...);
+```
 
+---
 
+ 
