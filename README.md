@@ -15,7 +15,9 @@ To build a two-player GUI-based Chess game in Java, focusing on game rules, move
 ### ✅ IDE Used
 - **IDE**: `IntelliJ IDEA Community Edition 2023`
 - You may also use `Eclipse` or `VS Code` with Java extensions.
+   
 ---
+
 ### ✅ Project Structure                  ✔1
 - The project Structure in already given in a text file `CheckMate ## Project Structure.txt`
 
