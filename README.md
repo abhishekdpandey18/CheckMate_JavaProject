@@ -5,7 +5,7 @@ To build a two-player GUI-based Chess game in Java, focusing on game rules, move
 
 ---
 
-## 🛠️ Development Setup                  ✔2
+## ✅ 1. 🛠️ Development Setup (2 Marks)
 
 ### ✅ JDK Version         
 - **JDK Version**: `Java SE Development Kit 17`
@@ -18,18 +18,17 @@ To build a two-player GUI-based Chess game in Java, focusing on game rules, move
    
 ---
 
-### ✅ Project Structure                  ✔1
+## ✅ 2. ✅ Project Structure       (1 Marks)
 - The project Structure in already given in a text file `CheckMate ## Project Structure.txt`
 
 ---
 
-## 🗃️ Database Schema Design                  ✔1
-
+## ✅ 3. 🗃️ Database Schema Design (1 Marks)
 The project uses a MySQL database to store chess game details and move history.
 
 ---
  
-### 📂 MySQL Tables                  ✔1
+## ✅ 4. 📂 MySQL Tables   (1 Marks)
 
 - **Game**  
   Stores the overall game information like player names, winner, and timestamps.
@@ -49,29 +48,6 @@ CREATE TABLE MoveHistory (...);
 
 ---
 
-# ♟️ Java Chess Game with GUI & MySQL Integration
-
-This is a complete Chess game implemented in Java using Swing for the GUI and JDBC for connecting to a MySQL database. The game follows standard chess rules including legal move validation, check, checkmate, castling, and en passant. Move history can be persisted using a MySQL database.
-
----
-
-## 📁 Project Structure
-
-JavaChess-main/
-├── src/
-│ ├── com/chess/database/DatabaseConnection.java
-│ ├── com/chess/model/MoveRecord.java
-│ ├── com/chess/dao/MoveHistoryDAO.java
-│ └── com/chess/GUI/GameHistoryPanel.java
-├── Chess pieces/ # Image assets
-├── JChess.java # Main game entry point
-└── README.md # This file
-
-swift
-Copy
-Edit
-
----
 
 ## ✅ 5. JDBC Implementation (3 Marks)
 
