@@ -48,7 +48,7 @@ CREATE TABLE MoveHistory (...);
 
 ---
 
-
+ 
 ## ✅ 5. JDBC Implementation (3 Marks)
 
 We've successfully implemented JDBC to enable interaction between our Java Chess game and a MySQL database.
@@ -75,4 +75,18 @@ public class DatabaseConnection {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }
- 
+```
+
+---
+
+## ✅ 6. Create Model & DAO (3 Marks)
+To manage database interactions cleanly and efficiently, we implemented:
+
+🧩 MoveRecord.java (Model)
+This class represents a single record of a chess move. It includes:
+
+moveNumber – The sequential number of the move.
+
+whiteMove – Move made by the White player.
+
+blackMove – Move made by the Black player. 
