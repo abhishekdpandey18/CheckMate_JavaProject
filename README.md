@@ -1,13 +1,13 @@
 # GUI-Based Java Project
 
-## 📋 Project Overview
+## 📋 Project Overview       
 To build a two-player GUI-based Chess game in Java, focusing on game rules, move validation, and an interactive interface. The project helps improve skills in object-oriented programming and GUI development.
 
 ---
 
-## 🛠️ Development Setup
+## 🛠️ Development Setup         
 
-### ✅ JDK Version
+### ✅ JDK Version         ✔2
 - **JDK Version**: `Java SE Development Kit 17`
 - Make sure JDK 17 is installed and configured in your environment.
 - [Download JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
