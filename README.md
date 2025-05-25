@@ -5,9 +5,9 @@ To build a two-player GUI-based Chess game in Java, focusing on game rules, move
 
 ---
 
-## 🛠️ Development Setup         
+## 🛠️ Development Setup         ✔2
 
-### ✅ JDK Version         ✔2
+### ✅ JDK Version         
 - **JDK Version**: `Java SE Development Kit 17`
 - Make sure JDK 17 is installed and configured in your environment.
 - [Download JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
@@ -15,9 +15,13 @@ To build a two-player GUI-based Chess game in Java, focusing on game rules, move
 ### ✅ IDE Used
 - **IDE**: `IntelliJ IDEA Community Edition 2023`
 - You may also use `Eclipse` or `VS Code` with Java extensions.
+---
+### ✅ Project Structure
+- The project Structure in already given in a text file CheckMate ## Project Structure.txt
+
 
 ---
-## 🗃️ Database Schema Design
+## 🗃️ Database Schema Design         ✔1
 
 The project uses a MySQL database to store chess game details and move history.
 
