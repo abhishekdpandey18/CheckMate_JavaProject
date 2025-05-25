@@ -27,7 +27,7 @@ The project uses a MySQL database to store chess game details and move history.
 
 ---
  
-### 📂 Tables                  ✔1
+### 📂 MySQL Tables                  ✔1
 
 - **Game**  
   Stores the overall game information like player names, winner, and timestamps.
