@@ -17,17 +17,24 @@ To build a two-player GUI-based Chess game in Java, focusing on game rules, move
 - You may also use `Eclipse` or `VS Code` with Java extensions.
 
 ---
-## 🗄️ Database Schema
+## 🗃️ Database Schema Design
 
-This project uses MySQL to store game records and move history.
+The project uses a MySQL database to store chess game details and move history.
 
-Two main tables:
+### 📂 Tables
 
-- `Game`: Stores player names, winner, and timestamps.
-- `MoveHistory`: Stores each move with positions and pieces.
+- **Game**  
+  Stores the overall game information like player names, winner, and timestamps.
 
-You can find the schema file here: [`schema.sql`](schema.sql)
+- **MoveHistory**  
+  Stores each move made in a game, including notation, origin/destination squares, and timestamps.
 
-### ER Diagram (Optional)
+### 📄 SQL Schema File
+
+The database schema is defined in [`schema.sql`](schema.sql), which includes:
+
+```sql
+CREATE TABLE Game (...);
+CREATE TABLE MoveHistory (...);
 
 
